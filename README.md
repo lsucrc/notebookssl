@@ -1,8 +1,10 @@
 # SSL-Enabled Jupyter Notebook (CentOS 7)
 
+For non-SSL version, please visit lsucrc/notebook.
+
 This is a containerized distribution of Jupyter Notebook by Louisiana State University 
 Coastal Resilience Collaboratory (https://crc.cct.lsu.edu/). This image is to enable
-an embedded web page with iframe as https host can not embed http site. More about 
+an embedded web page with iframe as https host can only embed https site. More about 
 Jupyter project itself can be found at [Jupyter Official Site](http://jupyter.org/).
 
 ## Spinning up Jupyter container

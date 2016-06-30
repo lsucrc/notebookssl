@@ -17,7 +17,7 @@ then Visit `https://localhost:9999/` with your favourite web browser. All notebo
 
 On other platforms, such as **Windows and OS X**, that use
 [`docker-machine`](https://docs.docker.com/machine/install-machine/) with `docker`, a container can be started using
-`docker-machine`. In the browser, open the URL `http://ip:8888/` where `ip` is
+`docker-machine`. In the browser, open the URL `http://ip:9999/` where `ip` is
 the IP address returned from the command [`docker-machine ip <MACHINE>`](https://docs.docker.com/machine/reference/ip/):
 
     $ docker-machine ip <MACHINE>

@@ -1,4 +1,4 @@
-# SSL-Enabled Jupyter Notebook (based on CentOS 7)
+# SSL-Enabled Jupyter Notebook (CentOS 7)
 
 This is a containerized distribution of Jupyter Notebook by Louisiana State University 
 Coastal Resilience Collaboratory (https://crc.cct.lsu.edu/). This image is to enable

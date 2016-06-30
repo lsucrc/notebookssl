@@ -28,4 +28,4 @@ ENTRYPOINT ["/usr/bin/tini", "--"]
 
 # Run jupyter
 EXPOSE 9999
-CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0"]
+CMD ["jupyter", "notebook", "--port=9999", "--no-browser", "--ip=0.0.0.0"]

@@ -1,8 +1,8 @@
 #Version 1.1
 #add the base image
 FROM lsucrc/crcbase
-RUN  yum install -y python-pip python-devel sqlite3 libpng-devel freetype-devel openssl
-RUN  pip install jupyter matplotlib
+RUN  yum install -y python-pip python-devel sqlite3 libpng-devel freetype-devel openssl netcdf-devel
+RUN  pip install jupyter matplotlib netCDF4
 
 # Add a notebook profile.
 RUN mkdir -p -m 700 /root/.jupyter/custom && \
